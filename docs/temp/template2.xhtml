@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:framexs="urn:framexs" lang="ja">
+<head>
+<title> - <framexs:property name="site-name"/></title>
+<framexs:if-property name="trainer-id-open">
+<script>
+window.onload = function() {
+var hide_id=Number('<framexs:property name="trainer-id-hide"/>');
+var open_id=Number('<framexs:property name="trainer-id-open"/>');
+var id = (hide_id*65536+open_id)%1000000;
+document.getElementById("t_id").innerHTML=id;
+
+};
+</script>
+</framexs:if-property>
+
+</head>
+<body>
+<article>
+<hr />
+<table border="1">
+<tbody>
+<tr><td>No.<span framexs:id-d="dexno">---</span></td>
+<td><span framexs:id-d="main">NO DATA<!--コンテンツのid属性がmainの部分を読み込み置き換える--></span></td></tr>
+<tr><td colspan="2"><span framexs:id-d="classname">けつばん</span>ポケモン</td></tr>
+<tr><td colspan="2"><span framexs:id-d="type1">なし</span><span framexs:id-d="type2">なし</span></td></tr>
+<tr><td colspan="2"><framexs:property name="erea-name"/>地方に生息</td></tr>
+<tr><td colspan="2"><span framexs:id-d="texts">コメント　さくせいちゅう</span></td></tr>
+</tbody>
+</table>
+<div>TRAINER ID:<span id="t_id">000000</span></div>
+
+</article>
+</body>
+</html>
