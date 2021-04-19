@@ -38,23 +38,24 @@ td {text-align:center;}
 
 <script>
 window.onload = function() {
-var ans = "-";
+var ans = "---";
 var rk1 = document.getElementById("rank1_rk").innerHTML;
 var bf1 = document.getElementById("rank1_bf").innerHTML;
 if (bf1=="-") {
-var ans = "<span class='rnew'>●</span>";
+ans = "<span class='rnew'>●</span>";
 }
 else {
 
-if (Number(rk1)>Number(bf1)){
-var ans = "<span class='rdown'>↓</span>";
-}
-else if (Number(rk1)>Number(bf1)){
-var ans = "<span class='rup'>↑</span>";
-if (Number(rk1)>Number(bf1)+5){
-var ans = "<span class='rnew'>●</span>";
-}
-}
+ if (Number(rk1)>Number(bf1)){
+ ans = "<span class='rdown'>↓</span>";
+ }
+ else if (Number(rk1)>Number(bf1)){
+ ans = "<span class='rup'>↑</span>";
+  if (Number(rk1)>Number(bf1)+5){
+  ans = "<span class='rnew'>●</span>";
+  }
+ }
+
 }
 document.getElementById("rank1_updown").innerHTML=ans;
 
