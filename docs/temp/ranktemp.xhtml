@@ -3,23 +3,41 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:framexs="urn:framexs" lang="ja">
 <head>
 <title> - テスト</title>
+<style>
+body {
+font-size:12px;
+}
+
+.ranks ,.ranks tr {
+    border: solid 1px #A0A0A0;
+}
+
+th {
+background-color:#FA4545;
+color:#fff;
+font-weight:normal;
+}
+
+.tr_left {text-align:left;}
+.tr_right {text-align:right;}
+
+</style>
 </head>
 <body>
 <article>
-<hr />
-<table border="1">
+<table class="ranks">
 <tbody>
 <tr>
 <th rowspan="2">順<br/>位</th>
 <th rowspan="2">先<br/>週</th>
 <th rowspan="2">変<br/>動</th>
-<th class="th_left">タイトル</th>
+<th class="tr_left">タイトル</th>
 <th rowspan="2">週間<br/>応援数</th>
 <th rowspan="2">累積<br/>応援数</th>
 <th rowspan="2">配信開始日</th>
 </tr>
 <tr>
-<th class="th_left">アーティスト</th>
+<th class="tr_right">アーティスト</th>
 </tr>
 
 
@@ -27,12 +45,12 @@
 <td rowspan="2"><span framexs:id-d="rank1_rank">0</span></td>
 <td rowspan="2"><span framexs:id-d="rank1_before">0</span></td>
 <td rowspan="2">-</td>
-<td><span framexs:id-d="rank1_title">0</span></td>
+<td class="tr_left"><span framexs:id-d="rank1_title">0</span></td>
 <td rowspan="2"><span framexs:id-d="rank1_point">0</span></td>
 <td rowspan="2"><span framexs:id-d="rank1_total">0</span></td>
 <td rowspan="2">21/03/30</td>
-</tr><tr>
-<td class="odd"><span framexs:id-d="rank1_artist">0</span></td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank1_artist">0</span></td>
 </tr>
 
 </tbody>
