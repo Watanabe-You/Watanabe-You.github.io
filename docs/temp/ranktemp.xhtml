@@ -38,26 +38,26 @@ td {text-align:center;}
 
 <script>
 window.onload = function() {
-var ans = "--";
+var ans = "non";
 var rk1 = document.getElementById("rank1_rk").innerHTML;
 var bf1 = document.getElementById("rank1_bf").innerHTML;
 if (bf1=="-") {
-ans = "<span class=\"rnew\">●</span>";
+ans = "rnew";
 }
 else {
 
  if (Number(rk1)>Number(bf1)){
- ans = "<span class=\"rdown\">↓</span>";
+ ans = "rdown";
  }
  else if (Number(rk1)>Number(bf1)){
- ans = "<span class=\"rup\">↑</span>";
+ ans = "rup";
   if (Number(rk1)>Number(bf1)+5){
-  ans = "<span class=\"rnew\">●</span>";
+  ans = "rnew";
   }
  }
 
 }
-document.getElementById("rank1_updown").innerHTML=ans;
+document.getElementById("rank1_updown").className=ans;
 
 };
 </script>
