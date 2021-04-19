@@ -38,7 +38,9 @@ td {text-align:center;}
 
 <script>
 window.onload = function() {
-document.getElementById("rank1_updown").innerHTML="OK";
+var rk = document.getElementById("rank1_rk").innerHTML;
+var bf = document.getElementById("rank1_bf").innerHTML;
+document.getElementById("rank1_updown").innerHTML=rk+"+"+bf;
 
 };
 </script>
@@ -62,9 +64,9 @@ document.getElementById("rank1_updown").innerHTML="OK";
 
 
 <tr class="odd" id="rank1">
-<td rowspan="2"><span framexs:id-d="rank1_rank">0</span></td>
-<td rowspan="2"><span framexs:id-d="rank1_before">0</span></td>
-<td rowspan="1"><span id="rank1_updown">-</span></td>
+<td rowspan="2"><span id="rank1_rk" framexs:id-d="rank1_rank">0</span></td>
+<td rowspan="2"><span id="rank1_bf" framexs:id-d="rank1_before">0</span></td>
+<td rowspan="2"><span id="rank1_updown">-</span></td>
 <td class="tr_left"><span framexs:id-d="rank1_title">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank1_point">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank1_total">0</span></td>
