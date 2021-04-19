@@ -42,17 +42,17 @@ var ans = "---";
 var rk1 = document.getElementById("rank1_rk").innerHTML;
 var bf1 = document.getElementById("rank1_bf").innerHTML;
 if (bf1=="-") {
-ans = "<span class='rnew'>●</span>";
+ans = "<span class=\"rnew\">●</span>";
 }
 else {
 
  if (Number(rk1)>Number(bf1)){
- ans = "<span class='rdown'>↓</span>";
+ ans = "<span class=\"rdown\">↓</span>";
  }
  else if (Number(rk1)>Number(bf1)){
- ans = "<span class='rup'>↑</span>";
+ ans = "<span class=\"rup\">↑</span>";
   if (Number(rk1)>Number(bf1)+5){
-  ans = "<span class='rnew'>●</span>";
+  ans = "<span class=\"rnew\">●</span>";
   }
  }
 
