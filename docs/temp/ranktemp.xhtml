@@ -24,7 +24,7 @@ font-weight:normal;
     line-height: 16px;
 }
 
-th,td {padding:2px;}
+th,td {padding:3px;}
 td {text-align:center;}
 
 .tr_left {text-align:left;}
@@ -33,12 +33,21 @@ td {text-align:center;}
 .odd{background-color:#FFFFFF;}
 .even{background-color:#FCE4E4;}
 
+.rnon:before {
+content:'-';
+}
+
+.rnew:before {
+content:'●';
+}
+
+
 </style>
 </head>
 
 <script>
 window.onload = function() {
-var ans = "non";
+var ans = "rnon";
 var rk1 = document.getElementById("rank1_rk").innerHTML;
 var bf1 = document.getElementById("rank1_bf").innerHTML;
 if (bf1=="-") {
@@ -83,7 +92,7 @@ document.getElementById("rank1_updown").className=ans;
 <tr class="odd" id="rank1">
 <td rowspan="2" id="rank1_rk"><span framexs:id-d="rank1_rank">0</span></td>
 <td rowspan="2" id="rank1_bf"><span framexs:id-d="rank1_before">0</span></td>
-<td rowspan="2"><span id="rank1_updown">-</span></td>
+<td rowspan="2"><span id="rank1_updown" class="rnon"></span></td>
 <td class="tr_left"><span framexs:id-d="rank1_title">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank1_point">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank1_total">0</span></td>
@@ -96,7 +105,7 @@ document.getElementById("rank1_updown").className=ans;
 <tr class="even" id="rank2">
 <td rowspan="2"><span framexs:id-d="rank2_rank">0</span></td>
 <td rowspan="2"><span framexs:id-d="rank2_before">0</span></td>
-<td rowspan="2"><span id="rank2_updown">-</span></td>
+<td rowspan="2"><span id="rank2_updown"></span></td>
 <td class="tr_left"><span framexs:id-d="rank2_title">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank2_point">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank2_total">0</span></td>
@@ -109,7 +118,7 @@ document.getElementById("rank1_updown").className=ans;
 <tr class="odd" id="rank3">
 <td rowspan="2" id="rank3_rk"><span framexs:id-d="rank3_rank">0</span></td>
 <td rowspan="2" id="rank3_bf"><span framexs:id-d="rank3_before">0</span></td>
-<td rowspan="2"><span id="rank3_updown">-</span></td>
+<td rowspan="2"><span id="rank3_updown"></span></td>
 <td class="tr_left"><span framexs:id-d="rank3_title">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank3_point">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank3_total">0</span></td>
