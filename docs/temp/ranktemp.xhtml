@@ -39,6 +39,23 @@ content:'-';
 
 .rnew:before {
 content:'●';
+    font-size: 90%;
+color:red;
+}
+
+.rup:before {
+content:'↑';
+    font-size: 80%;
+    color: #d63442;
+font-weight:bold;
+}
+
+
+.rdown:before {
+content:'↓';
+    font-size: 80%;
+    color: #0000FF;
+font-weight:bold;
 }
 
 
@@ -47,9 +64,11 @@ content:'●';
 
 <script>
 window.onload = function() {
+
+for(var i=1;i<29;i++){
 var ans = "rnon";
-var rk1 = document.getElementById("rank1_rk").innerHTML;
-var bf1 = document.getElementById("rank1_bf").innerHTML;
+var rk1 = document.getElementById("rank"+i+"_rk").innerHTML;
+var bf1 = document.getElementById("rank"+i+"_bf").innerHTML;
 if (bf1=="-") {
 ans = "rnew";
 }
@@ -66,7 +85,9 @@ else {
  }
 
 }
-document.getElementById("rank1_updown").className=ans;
+document.getElementById("rank"+i+"_updown").className=ans;
+
+}
 
 };
 </script>
@@ -105,7 +126,7 @@ document.getElementById("rank1_updown").className=ans;
 <tr class="even" id="rank2">
 <td rowspan="2"><span framexs:id-d="rank2_rank">0</span></td>
 <td rowspan="2"><span framexs:id-d="rank2_before">0</span></td>
-<td rowspan="2"><span id="rank2_updown"></span></td>
+<td rowspan="2"><span id="rank2_updown" class="rnon"></span></td>
 <td class="tr_left"><span framexs:id-d="rank2_title">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank2_point">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank2_total">0</span></td>
@@ -118,7 +139,7 @@ document.getElementById("rank1_updown").className=ans;
 <tr class="odd" id="rank3">
 <td rowspan="2" id="rank3_rk"><span framexs:id-d="rank3_rank">0</span></td>
 <td rowspan="2" id="rank3_bf"><span framexs:id-d="rank3_before">0</span></td>
-<td rowspan="2"><span id="rank3_updown"></span></td>
+<td rowspan="2"><span id="rank3_updown" class="rnon"></span></td>
 <td class="tr_left"><span framexs:id-d="rank3_title">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank3_point">0</span></td>
 <td class="tr_right" rowspan="2"><span framexs:id-d="rank3_total">0</span></td>
@@ -128,6 +149,336 @@ document.getElementById("rank1_updown").className=ans;
 </tr>
 
 
+<tr class="even" id="rank4">
+<td rowspan="2"><span framexs:id-d="rank4_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank4_before">0</span></td>
+<td rowspan="2"><span id="rank4_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank4_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank4_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank4_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank4_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank5">
+<td rowspan="2" id="rank5_rk"><span framexs:id-d="rank5_rank">0</span></td>
+<td rowspan="2" id="rank5_bf"><span framexs:id-d="rank5_before">0</span></td>
+<td rowspan="2"><span id="rank5_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank5_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank5_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank5_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank5_artist">0</span></td>
+</tr>
+
+
+
+<tr class="even" id="rank6">
+<td rowspan="2"><span framexs:id-d="rank6_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank6_before">0</span></td>
+<td rowspan="2"><span id="rank6_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank6_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank6_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank6_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank6_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank7">
+<td rowspan="2" id="rank7_rk"><span framexs:id-d="rank7_rank">0</span></td>
+<td rowspan="2" id="rank7_bf"><span framexs:id-d="rank7_before">0</span></td>
+<td rowspan="2"><span id="rank7_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank7_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank7_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank7_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank7_artist">0</span></td>
+</tr>
+
+
+<tr class="even" id="rank8">
+<td rowspan="2"><span framexs:id-d="rank8_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank8_before">0</span></td>
+<td rowspan="2"><span id="rank8_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank8_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank8_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank8_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank8_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank9">
+<td rowspan="2" id="rank9_rk"><span framexs:id-d="rank9_rank">0</span></td>
+<td rowspan="2" id="rank9_bf"><span framexs:id-d="rank9_before">0</span></td>
+<td rowspan="2"><span id="rank9_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank9_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank9_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank9_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank9_artist">0</span></td>
+</tr>
+
+
+
+<tr class="even" id="rank10">
+<td rowspan="2"><span framexs:id-d="rank10_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank10_before">0</span></td>
+<td rowspan="2"><span id="rank10_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank10_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank10_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank10_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank10_artist">0</span></td>
+</tr>
+
+
+
+
+<tr class="odd" id="rank11">
+<td rowspan="2" id="rank11_rk"><span framexs:id-d="rank11_rank">0</span></td>
+<td rowspan="2" id="rank11_bf"><span framexs:id-d="rank11_before">0</span></td>
+<td rowspan="2"><span id="rank11_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank11_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank11_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank11_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank11_artist">0</span></td>
+</tr>
+
+
+<tr class="even" id="rank12">
+<td rowspan="2"><span framexs:id-d="rank12_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank12_before">0</span></td>
+<td rowspan="2"><span id="rank12_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank12_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank12_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank12_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank12_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank13">
+<td rowspan="2" id="rank13_rk"><span framexs:id-d="rank13_rank">0</span></td>
+<td rowspan="2" id="rank13_bf"><span framexs:id-d="rank13_before">0</span></td>
+<td rowspan="2"><span id="rank13_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank13_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank13_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank13_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank13_artist">0</span></td>
+</tr>
+
+
+<tr class="even" id="rank14">
+<td rowspan="2"><span framexs:id-d="rank14_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank14_before">0</span></td>
+<td rowspan="2"><span id="rank14_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank14_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank14_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank14_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank14_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank15">
+<td rowspan="2" id="rank15_rk"><span framexs:id-d="rank15_rank">0</span></td>
+<td rowspan="2" id="rank15_bf"><span framexs:id-d="rank15_before">0</span></td>
+<td rowspan="2"><span id="rank15_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank15_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank15_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank15_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank15_artist">0</span></td>
+</tr>
+
+
+
+<tr class="even" id="rank16">
+<td rowspan="2"><span framexs:id-d="rank16_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank16_before">0</span></td>
+<td rowspan="2"><span id="rank16_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank16_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank16_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank16_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank16_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank17">
+<td rowspan="2" id="rank17_rk"><span framexs:id-d="rank17_rank">0</span></td>
+<td rowspan="2" id="rank17_bf"><span framexs:id-d="rank17_before">0</span></td>
+<td rowspan="2"><span id="rank17_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank17_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank17_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank17_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank17_artist">0</span></td>
+</tr>
+
+
+<tr class="even" id="rank18">
+<td rowspan="2"><span framexs:id-d="rank18_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank18_before">0</span></td>
+<td rowspan="2"><span id="rank18_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank18_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank18_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank18_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank18_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank19">
+<td rowspan="2" id="rank19_rk"><span framexs:id-d="rank19_rank">0</span></td>
+<td rowspan="2" id="rank19_bf"><span framexs:id-d="rank19_before">0</span></td>
+<td rowspan="2"><span id="rank19_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank19_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank19_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank19_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank19_artist">0</span></td>
+</tr>
+
+
+
+<tr class="even" id="rank20">
+<td rowspan="2"><span framexs:id-d="rank20_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank20_before">0</span></td>
+<td rowspan="2"><span id="rank20_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank20_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank20_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank20_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank20_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank21">
+<td rowspan="2" id="rank21_rk"><span framexs:id-d="rank21_rank">0</span></td>
+<td rowspan="2" id="rank21_bf"><span framexs:id-d="rank21_before">0</span></td>
+<td rowspan="2"><span id="rank21_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank21_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank21_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank21_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank21_artist">0</span></td>
+</tr>
+
+
+<tr class="even" id="rank22">
+<td rowspan="2"><span framexs:id-d="rank22_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank22_before">0</span></td>
+<td rowspan="2"><span id="rank22_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank22_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank22_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank22_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank22_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank23">
+<td rowspan="2" id="rank23_rk"><span framexs:id-d="rank23_rank">0</span></td>
+<td rowspan="2" id="rank23_bf"><span framexs:id-d="rank23_before">0</span></td>
+<td rowspan="2"><span id="rank23_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank23_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank23_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank23_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank23_artist">0</span></td>
+</tr>
+
+
+<tr class="even" id="rank24">
+<td rowspan="2"><span framexs:id-d="rank24_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank24_before">0</span></td>
+<td rowspan="2"><span id="rank24_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank24_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank24_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank24_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank24_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank25">
+<td rowspan="2" id="rank25_rk"><span framexs:id-d="rank25_rank">0</span></td>
+<td rowspan="2" id="rank25_bf"><span framexs:id-d="rank25_before">0</span></td>
+<td rowspan="2"><span id="rank25_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank25_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank25_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank25_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank25_artist">0</span></td>
+</tr>
+
+
+
+<tr class="even" id="rank26">
+<td rowspan="2"><span framexs:id-d="rank26_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank26_before">0</span></td>
+<td rowspan="2"><span id="rank26_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank26_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank26_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank26_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank26_artist">0</span></td>
+</tr>
+
+
+<tr class="odd" id="rank27">
+<td rowspan="2" id="rank27_rk"><span framexs:id-d="rank27_rank">0</span></td>
+<td rowspan="2" id="rank27_bf"><span framexs:id-d="rank27_before">0</span></td>
+<td rowspan="2"><span id="rank27_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank27_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank27_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank27_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="odd">
+<td class="tr_right"><span framexs:id-d="rank27_artist">0</span></td>
+</tr>
+
+
+<tr class="even" id="rank28">
+<td rowspan="2"><span framexs:id-d="rank28_rank">0</span></td>
+<td rowspan="2"><span framexs:id-d="rank28_before">0</span></td>
+<td rowspan="2"><span id="rank28_updown" class="rnon"></span></td>
+<td class="tr_left"><span framexs:id-d="rank28_title">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank28_point">0</span></td>
+<td class="tr_right" rowspan="2"><span framexs:id-d="rank28_total">0</span></td>
+<td rowspan="2">21/03/30</td>
+</tr><tr class="even">
+<td class="tr_right"><span framexs:id-d="rank28_artist">0</span></td>
+</tr>
 
 </tbody>
 </table>
