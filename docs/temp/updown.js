@@ -7,7 +7,6 @@ for (var i = 1; i < 29; i++) {
 ans = "rnon";
 rk1 = document.getElementById("rank"+i+"_rk").innerHTML;
 bf1 = document.getElementById("rank"+i+"_bf").innerHTML;
- alert(i+":"+rk1+"/"+bf1);
 
 if (bf1=="-") {
 ans = "rnew";
