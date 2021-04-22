@@ -16,9 +16,9 @@ else {
  if (Number(rk1)>Number(bf1)){
  ans = "rdown";
  }
- else if (Number(rk1)>Number(bf1)){
+ else if (Number(rk1)<Number(bf1)){
  ans = "rup";
-  if (Number(rk1)>Number(bf1)+5){
+  if (Number(rk1)+5<Number(bf1)){
   ans = "rnew";
   }
  }
