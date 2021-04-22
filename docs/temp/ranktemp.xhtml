@@ -64,11 +64,14 @@ font-weight:bold;
 
 <script>
 window.onload = function() {
+var ans = "rnon";
+var rk1=0;
+var bf1=0;
 
 for (var i = 1; i < 29; i++) {
-var ans = "rnon";
-var rk1 = document.getElementById("rank"+i+"_rk").innerHTML;
-var bf1 = document.getElementById("rank"+i+"_bf").innerHTML;
+ans = "rnon";
+rk1 = document.getElementById("rank"+i+"_rk").innerHTML;
+bf1 = document.getElementById("rank"+i+"_bf").innerHTML;
 if (bf1=="-") {
 ans = "rnew";
 }
