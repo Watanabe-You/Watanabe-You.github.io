@@ -1,0 +1,40 @@
+DNS : STAFF 5 / Class A 11 / Class B 7  Total 23
+KAKE: STAFF 5 / Class A 5 / Class B 25 Total 35
+
+Class A : Run,Battle
+Class B : Quiz,Bot
+
+Type A:2 Team
+Team DNS(16/24)
+Team KAKE(10/35) 
+
+
+Type B:4 Team
+Team DNS A(8/12)
+Team DNS B(8/12)
+Team KAKE A(5/18)
+Team KAKE B(5/17)
+
+0900-0950 Setting
+0950-1010 Opening
+1010-1200 Tarm 1 - 110min
+1200-1300 Lanch
+1300-1450 Tarm 2 - 110min
+1450-1500 Ending
+ 
+05[RT]40m Run
+05[RT]Ballon de Battle
+10[RT]Carry Relay
+10[RT]FINAL BATTLE
+20[GF]Bocce
+15[GF]HomeRun Dabby
+20[GF]Real Tramp
+30[GF]Informing
+15[GF]Ball Toss
+10[GF]Bolling
+15[GF]Tower of Doll
+30[GF]Quiz
+/Total
+
+10[NF]Dance
+10[NF]Cheering
