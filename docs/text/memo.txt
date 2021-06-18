@@ -25,17 +25,37 @@ Oct 28 [Fri]
  
 05[RT]40m Run
 05[RT]Ballon de Battle
-10[RT]Carry Relay
+10[RT]Carry Relay[NEW]
+15[RT]Real Uma Musume[NEW]
 10[RT]FINAL BATTLE
+
 20[GF]Bocce
 15[GF]HomeRun Dabby
 20[GF]Real Tramp
-30[GF]Informing
 15[GF]Ball Toss
-10[GF]Bolling
 15[GF]Tower of Doll
 30[GF]Quiz
-185/220 Total
+10[GF]Bolling[NEW]
+20[GF]Insider Game(VS Soul)[NEW]
+190/220 Total
 
 10[NF]Dance
 10[NF]Cheering
+
+
+
+
+1010[RT]40m Run
+1020[GF]Bocce
+1045[GF]Tower of Doll
+1100[RT]Ballon de Battle
+1110[GF]Real Tramp
+1130[RT]Carry Relay[NEW]
+1145[GF]HomeRun Dabby
+
+1300[GF]Quiz
+1335[GF]Ball Toss
+1355[RT]Real Uma Musume[NEW]
+1415[GF]Bolling[NEW]
+1420[GF]Insider Game(VS Soul)[NEW]
+1440[RT]FINAL BATTLE
