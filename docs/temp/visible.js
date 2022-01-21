@@ -9,7 +9,7 @@ ans = "non";
 t1 = document.getElementById("rank"+i+"_rk").innerHTML;
 
 if (t1=="") {
-document.getElementById("rank"+i).className=ans;{
+document.getElementById("rank"+i).className=ans;
 document.getElementById("rank"+i+"_b").className=ans;
 }
  }
