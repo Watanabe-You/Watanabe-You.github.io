@@ -3,7 +3,9 @@ var ans = "rnon";
 var rk1=0;
 var bf1=0;
 
-for (var i = 1; i < 29; i++) {
+for (var i = 1; i < 40; i++) {
+ if(document.getElementById("rank"+i) != null) {
+ 
 ans = "rnon";
 rk1 = document.getElementById("rank"+i+"_rk").innerHTML;
 bf1 = document.getElementById("rank"+i+"_bf").innerHTML;
@@ -25,7 +27,7 @@ else {
 
 }
 document.getElementById("rank"+i+"_updown").className=ans;
-
+ }
 }
 
 };
