@@ -5,7 +5,7 @@ var bf1=0;
 
 for (var i = 1; i < 40; i++) {
  if(document.getElementById("rank"+i+"_rk") != null) {
- if(document.getElementById("rank"+i+"_rk").innerHTML != "") {
+ if(document.getElementById("rank"+i+"_rk").innerHTML != "" && document.getElementById("rank"+i+"_rk").innerHTML != "0") {
  
 ans = "rnon";
 rk1 = document.getElementById("rank"+i+"_rk").innerHTML;
