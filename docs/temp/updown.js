@@ -5,6 +5,7 @@ var bf1=0;
 
 for (var i = 1; i < 40; i++) {
  if(document.getElementById("rank"+i+"_rk") != null) {
+ if(document.getElementById("rank"+i) > 0) {
  
 ans = "rnon";
 rk1 = document.getElementById("rank"+i+"_rk").innerHTML;
@@ -29,5 +30,5 @@ else {
 document.getElementById("rank"+i+"_updown").className=ans;
  }
 }
-
+}
 };
